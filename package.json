@@ -1,0 +1,17 @@
+{
+  "name": "import-export-task",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=production",
+    "serve": "serve dist --no-clipboard"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "serve": "^14.2.3",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
